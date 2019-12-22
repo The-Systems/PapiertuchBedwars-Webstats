@@ -116,7 +116,7 @@ th {
                     $curl = curl_init();
 
                     curl_setopt_array($curl, array(
-                        CURLOPT_URL => "https://project.the-systems.eu/api/resource/?resourceid=2&type=latest",
+                        CURLOPT_URL => "https://project.the-systems.eu/api/resource/?resourceid=8&type=latest",
                         CURLOPT_RETURNTRANSFER => true,
                         CURLOPT_ENCODING => "",
                         CURLOPT_MAXREDIRS => 10,
@@ -143,7 +143,7 @@ th {
                     <?php
                     $curl = curl_init();
                     curl_setopt_array($curl, array(
-                        CURLOPT_URL => "https://project.the-systems.eu/api/resource/?resourceid=2&type=info",
+                        CURLOPT_URL => "https://project.the-systems.eu/api/resource/?resourceid=8&type=info",
                         CURLOPT_RETURNTRANSFER => true,
                         CURLOPT_ENCODING => "",
                         CURLOPT_MAXREDIRS => 10,

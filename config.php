@@ -34,11 +34,10 @@ $maindomain = "https://domain.de";
 $ip = "localhost";
 $user = "user";
 $password = "pw?H78t";
-$table = "bedwars";
 $database = "db";
 
 try {
-    $pdo = new PDO('mysql:host=' . $ip . ';charset=utf8;dbname=' . $table, $user, $password);
+    $pdo = new PDO('mysql:host=' . $ip . ';charset=utf8;dbname=' . $database, $user, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
 	die('Mysql verbindung fehlgeschlagen.');
@@ -54,9 +53,5 @@ $richtext = "Seh dir deine Stats an!";
 
 $debug = "false";
 /* Dont Change! */
-$version = "1.0";
-$versioncheck = "https://spigot.nevercold.eu/papierbedwars/webstats/version.json";
-$true = "true";
-$false = "false";
-include("mysqlclass.php");
+$version = "1.3";
 /* Dont Change! */

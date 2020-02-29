@@ -1,16 +1,9 @@
-<!DOCTYPE HTML>
-
 <?php
 // api and config
 require 'mojang-api.class.php';
-include("config.php");
-
-
-
-
+require 'config.php';
 ?>
-
-
+<!DOCTYPE HTML>
 <html>
 <head>
     <title><?php echo $richname; ?></title>
@@ -23,7 +16,6 @@ include("config.php");
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 		</noscript>
-		<script src='https://www.google.com/recaptcha/api.js'></script>
 <style>
 
 table {
